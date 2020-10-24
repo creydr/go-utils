@@ -7,7 +7,7 @@ on:
       - master
   pull_request:
     paths:
-      - .github/workflows/golangci-lint.yaml
+      - .github/workflows/golangci-lint.yml
       - "**.go"
 jobs:
   golangci:
